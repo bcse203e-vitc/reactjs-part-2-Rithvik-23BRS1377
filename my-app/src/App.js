@@ -1,11 +1,11 @@
 import React from "react";
-import ParentComponent from "./ParentComponent";
+import NameForm from "./NameForm";
 
 function App() {
   return (
     <div>
-      <h2>Parent-Child Component Structure</h2>
-      <ParentComponent />
+      <h1>Controlled Input Example</h1>
+      <NameForm />
     </div>
   );
 }
